@@ -41,6 +41,10 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 
 ## 📚 Image Quality Assessment Methods
 
+![img2](assets/time-early.jpg)
+
+![img3](assets/time-later.jpg)
+
 <table>
     <tr>
         <td>Metrics</td>
