@@ -4,63 +4,78 @@
 
 ## 🔍 Introduction
 
-Image quality assessment (IQA) represents a pivotal challenge in image-focused technologies, significantly influencing the advancement trajectory of image processing and computer vision. Recently, IQA has witnessed a notable surge in innovative research efforts, driven by the emergence of novel architectural paradigms and sophisticated computational techniques. This survey delivers an extensive analysis of contemporary IQA methodologies, organized according to their application scenarios, serving as a beneficial reference for both beginners and experienced researchers. We analyze the advantages and limitations of current approaches and suggest potential future research pathways. The survey encompasses both general and specific IQA methodologies, including conventional statistical measures, machine learning techniques, and cutting-edge deep learning models such as convolutional neural networks (CNNs) and Transformer models. The analysis within this survey highlights the necessity for distortion-specific IQA methods tailored to various application scenarios, emphasizing the significance of practicality, interpretability, and ease of implementation in future developments. Our survey aims to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field.
+Image Quality Assessment (IQA) is a critical component of image-related technologies and plays a pivotal role in the advancement of image processing and computer vision. In recent years, the proliferation of novel training frameworks and machine learning models has given rise to a multitude of IQA methodologies. This survey conducts a comprehensive review of nearly 200 IQA-related publications, synthesizing key developments in the field and systematically categorizing existing approaches based on their underlying models, training frameworks, publication timelines, application scenarios, and academic impact. This structured analysis aims to facilitate a swift introduction for newcomers while providing seasoned researchers with a clearer perspective on the current state of the field. Moreover, we offer a critical evaluation of the advantages and limitations of various IQA methods and present our perspectives on future research directions. To complement the survey, this repository compiles both the IQA techniques discussed in the paper and other approaches that could not be included due to space constraints, thereby serving as a valuable resource to support further advancements in IQA research.<br>
+图像质量评估（IQA）在图像相关的技术中起着非常重要的作用，对于图像处理和计算机视觉领域的技术发展有着深远的影响。近年来，随着新型训练框架和机器学习模型的出现，许多IQA方法涌现出来。本综述通过调研接近二百篇IQA相关论文，总结了IQA发展中值得关注的工作，并按照不同方法所用的模型、训练框架、发表时间、使用场景和影响力进行了整理，以方便初学者快速入门、资深研究者更好地了解领域发展现状。随后，我们对诸多IQA方法的优缺点进行了分析，对IQA方法的未来发展提出了自己的见解。本repository旨在列出论文中提到的、以及受篇幅限制未提到的经典IQA方法，配合论文阅读，以促进IQA技术的发展。
 
-🚀Paper link: [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540)
+🚀English Paper link: [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540)
+🚀Chinese Paper link: [在计算机视觉领域中，我们应该如何评估图像质量（万字长文）？](https://zhuanlan.zhihu.com/p/25680975953)
 
 ## Update Records
 
-- 🔥 [2/12/2025] The first version of our survey has been released on arXiv.
+- 🔥 [March.2,2025] The chinese version of our survey has been released on zhihu.
+- 🔥 [Feb.12,2025] The first version of our survey has been released on arXiv.
 
 ## 📜 Table of Contents
 
 - [📚 Image Quality Assessment Methods](#image-quality-assessment-methods)
-    -  **📗  General Scene Methods**
-       <details>
-          <summary>📕 Statistics Methods</summary>
-         
-          - 📘 **HVS-Based Methods**
-         
-          - 📘 **Transform Domain-Based Methods**
-            
-          - 📘 **NSS-Based Methods**
-            
-       </details>
-       <details>
-          <summary>📕 Machine Learning-Based Methods</summary>
-         
-          - 📘 **Model-based Methods**
-         
-          - 📘 **Framework-Based Methods**
-            
-       </details>
-    -  **📗  Specific Scene Methods**
-          - 📕 **Medical IQA**
-         
-          - 📕 **IQA for Dehazing Algorithms**
-     
-          - 📕 **Portrait Quality Assessment**
-     
-          - 📕 **Specific Distortion**
+  -  **📗  General Scene Methods**
+     <details>
+        <summary>📕 Statistics Methods</summary>
+        <details>
+           <summary>📘 HVS-based Methods</summary>
+        </details>
+        <details>
+           <summary>📘 Transform Domain-based Methods</summary>
+        </details>
+        <details>
+           <summary>📘 Natural Scene Statistics-based Methods</summary>
+        </details>
+     </details>
 
-- [🌐 More Comprehensive Summarization](#-more-comprehensive-summarization)
-- [👨‍👨‍👧‍👦 Maintainers](#-maintainers)
-- [📚 Citation](#-citation)
-- [💪 How to Contribute](#-how-to-contribute)
-- [🫡 Acknowledgement](#-acknowledgement)
-- [📧 Contact Us](#-contact-us)
+     <details>
+        <summary>📕 Machine Learning-based Methods</summary>
+        <details>
+           <summary>📘 Model-based Methods</summary>
+
+           - 📙 **Traditional Machine Learning Methods**
+           - 📙 **CNN-based Methods**
+           - 📙 **Transformer-based Methods**
+
+        </details>
+        <details>
+           <summary>📘 Framework-based Methods</summary>
+        </details>
+     </details>
+
+  -  **📗  Specific Scene Methods**
+     <details>
+        <summary>📕 Medical IQA</summary>
+     </details>
+     <details>
+        <summary>📕 IQA for Dehazing Algorithms</summary>
+     </details>
+     <details>
+        <summary>📕 Portrait Quality Assessment</summary>
+     </details>
+     <details>
+        <summary>📕 Specific Distortion</summary>
+
+        - 📙 **Blue**
+        - 📙 **JPEG compression**
+
+     </details>
 
 ## 📚 Image Quality Assessment Methods
 
 <table>
     <tr>
-        <td>metrics</td>
-        <td>简单介绍</td>
-        <td>paper name</td>
-        <td>citation number</td>
-        <td>发表时间（最早发表时间）</td>
-        <td>是否有reference image<br>(Full-R/<br>Reduced-R/<br>Non-R)</td>
-        <td>General Distortion/ <br>Specific Distortion <br>(如果是specific distortion，<br>请指出具体的distortion种类)</td>
+        <td>Metrics</td>
+        <td>Introduction</td>
+        <td>Paper name</td>
+        <td>Citation number as of Feb.1,2025.</td>
+        <td>Earliest publication time</td>
+        <td><(Full-R, Reduced-R or Non-R)</td>
+        <td>General Distortion or Specific Distortion <br>(如果是specific distortion，<br>请指出具体的distortion种类)</td>
         <td>所使用框架<br>(如果创新点在框架上，<br>如果是统计学方法则不填)</td>
         <td>所使用模型<br>(如果创新点在模型上，<br>如果是统计学方法则不填)</td>
     </tr>
@@ -1204,49 +1219,3 @@ Image quality assessment (IQA) represents a pivotal challenge in image-focused t
         <td></td>
     </tr>
 </table>
-
-## 🛠 Key Techniques and Methodologies
-
-### 📊 Traditional IQA Metrics
-- Peak Signal-to-Noise Ratio (PSNR)
-- Structural Similarity Index (SSIM)
-- Visual Information Fidelity (VIF)
-
-### 🤖 Learning-Based IQA
-- Convolutional Neural Network (CNN)-based models
-- Transformer-based IQA models
-- No-reference deep learning methods
-
-### 🏗 Hybrid Approaches
-- Combining statistical and deep learning-based techniques
-- Multi-scale feature extraction for perceptual quality assessment
-
-## 🚀 Applications
-
-IQA methods are widely used in various domains, including but not limited to:
-
-- **Image Compression and Enhancement**
-- **Medical Imaging Quality Assessment**
-- **Autonomous Driving and Surveillance**
-- **Multimedia Streaming and Transmission**
-- **Photo Editing and Aesthetic Assessment**
-
-## ⚠ Challenges and Open Problems
-
-Despite advancements, IQA faces several challenges:
-
-- **Subjective vs. Objective Quality Discrepancy**: Bridging the gap between human perception and objective metrics.
-- **Generalization and Robustness**: Ensuring model performance across diverse datasets.
-- **Real-Time Processing**: Reducing computational overhead for real-time applications.
-- **Interpretable and Explainable IQA**: Enhancing transparency in deep learning-based IQA models.
-
-## 🔭 Future Directions
-
-- **Self-Supervised Learning for IQA**: Reducing reliance on labeled datasets.
-- **Cross-Domain Generalization**: Improving robustness across different image types.
-- **Efficient and Lightweight Models**: Developing IQA methods for resource-constrained devices.
-- **Benchmarking and Standardization**: Establishing unified evaluation metrics and datasets.
-
-## 📖 References
-
-A comprehensive list of references is maintained in the [`references.bib`](./references.bib) file.
