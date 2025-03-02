@@ -1,1 +1,1 @@
-# A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook
+# A Survey on IQA: Insights, Analysis, and Future Outlook
