@@ -51,8 +51,8 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>Paper name</td>
         <td>Citation number as of Feb.1,2025.</td>
         <td>Earliest publication time</td>
-        <td>&lt;(Full-R, Reduced-R or Non-R)</td>
-        <td>General Distortion or Specific Distortion (如果是specific distortion，请指出具体的distortion种类)</td>
+        <td>Full/Reduced/Non Reference</td>
+        <td>General/Specific Distortion</td>
     </tr>
     <tr>
         <td colspan="6" align="center">HVS-Based Method</td>
@@ -98,7 +98,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>G</td>
     </tr>
     <tr>
-        <td>universal image quality index(UQI)</td>
+        <td>universal image quality index (UQI)</td>
         <td>A universal image quality index</td>
         <td>7419</td>
         <td>2002.03</td>
@@ -114,7 +114,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>G</td>
     </tr>
     <tr>
-        <td>Visual information fidelity(VIF)</td>
+        <td>Visual information fidelity (VIF)</td>
         <td>Image information and visual quality</td>
         <td>4861</td>
         <td>2006.02</td>
@@ -213,7 +213,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td colspan="6" align="center">Transform Domain-Based Method</td>
     </tr>
     <tr>
-        <td>Blind Image Integrity Notator using DCT Statistics（BLIINDS-II）</td>
+        <td>BLIINDS-II</td>
         <td>Blind image quality assessment: A natural scene statistics approach in the DCT domain</td>
         <td>1912</td>
         <td>2012.03</td>
@@ -288,7 +288,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>G</td>
     </tr>
     <tr>
-        <td>Tone-mapped images quality index—TMQI（调整后的色调映射图像质量指数）</td>
+        <td>Tone-mapped images quality index (TMQI)</td>
         <td>Objective quality assessment of tone-mapped images</td>
         <td>720</td>
         <td>2012.10</td>
@@ -304,7 +304,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>G</td>
     </tr>
     <tr>
-        <td>Dynamic range independent quality measure—DRIM（动态范围独立度量）</td>
+        <td>Dynamic range independent quality measure (DRIM)</td>
         <td>Dynamic range independent image quality assessment</td>
         <td>371</td>
         <td>2008.08</td>
@@ -330,14 +330,15 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>NR</td>
         <td>G</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>Blind Image Integrity Notator using DCT Statistics（BLIINDS-II，和transform domain-based method冲突）</td>
         <td>Blind image quality assessment: A natural scene statistics approach in the DCT domain</td>
         <td>1912</td>
         <td>2012.03</td>
         <td>NR</td>
         <td>G</td>
-    </tr>
+    </tr> -->
+    <!-- 这一项放在transform domain-based method了，所以从这里删除 -->
     <tr>
         <td>IL-NIQE</td>
         <td>A feature-enriched completely blind image quality evaluator</td>
@@ -418,7 +419,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>Deep neural networks for no-reference and full-reference image quality assessment</td>
         <td>1229</td>
         <td>2017.10</td>
-        <td>FR&amp;amp;NR</td>
+        <td>FR+NR</td>
         <td>G</td>
     </tr>
     <tr>
@@ -518,7 +519,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>G</td>
     </tr>
     <tr>
-        <td>IQMA Network(21 NTIRE public leaderboard冠军)</td>
+        <td>IQMA Network</td>
         <td>IQMA Network: Image Quality Multi-Scale Assessment Network</td>
         <td>27</td>
         <td>2021.06</td>
@@ -737,64 +738,5 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>2015.02</td>
         <td>NR</td>
         <td>JPEG</td>
-    </tr>
-    <tr>
-        <td colspan="6" align="center">以下在其它部分使用</td>
-    </tr>
-    <tr>
-        <td> Single stimulus categorical rating(SIQA)</td>
-        <td>Methodology for the subjective assessment of the quality of television pictures</td>
-        <td>1004</td>
-        <td>2002（具体月份没有找到）</td>
-        <td>FR</td>
-        <td>G</td>
-    </tr>
-    <tr>
-        <td>Double stimulus categorical rating(SIQA)</td>
-        <td>Methodology for the subjective assessment of the quality of television pictures</td>
-        <td>1004</td>
-        <td>2003（具体月份没有找到）</td>
-        <td>FR</td>
-        <td>G</td>
-    </tr>
-    <tr>
-        <td>157</td>
-        <td>Photo and video quality evaluation: Focusing on the subject</td>
-        <td>644</td>
-        <td>2008.10</td>
-        <td></td>
-        <td>美学图像</td>
-    </tr>
-    <tr>
-        <td>Reduced - Reference Image Quality Metric for Contrast Change(RIQMC)</td>
-        <td>The analysis of image contrast: From quality assessment to automatic enhancement</td>
-        <td>405</td>
-        <td>2015.01</td>
-        <td>RR</td>
-        <td>G</td>
-    </tr>
-    <tr>
-        <td>OSVP for RR IQA</td>
-        <td>Orientation selectivity based visual pattern for reduced-reference image quality assessment</td>
-        <td>105</td>
-        <td>2016.07</td>
-        <td>RR</td>
-        <td>G</td>
-    </tr>
-    <tr>
-        <td>RR IQA using SDM</td>
-        <td>A new reduced-reference image quality assessment using structural degradation model</td>
-        <td>86</td>
-        <td>2013.05</td>
-        <td>RR</td>
-        <td>G</td>
-    </tr>
-    <tr>
-        <td>MLIQM</td>
-        <td>Machine learning to design full-reference image quality assessment algorithm</td>
-        <td>67</td>
-        <td></td>
-        <td>FR</td>
-        <td>G</td>
     </tr>
 </table>
