@@ -14,15 +14,43 @@ Image quality assessment (IQA) represents a pivotal challenge in image-focused t
 
 ## 📜 Table of Contents
 
-- [Introduction](#introduction)
-- [Taxonomy of IQA Methods](#taxonomy-of-iqa-methods)
-- [Key Techniques and Methodologies](#key-techniques-and-methodologies)
-- [Applications](#applications)
-- [Challenges and Open Problems](#challenges-and-open-problems)
-- [Future Directions](#future-directions)
-- [References](#references)
+- [📚 Image Quality Assessment Methods](#image-quality-assessment-methods)
+    -  **📗  General Scene Methods**
+       <details>
+          <summary>📕 Statistics Methods</summary>
+         
+          - 📘 **HVS-Based Methods**
+         
+          - 📘 **Transform Domain-Based Methods**
+            
+          - 📘 **NSS-Based Methods**
+            
+       </details>
+       <details>
+          <summary>📕 Machine Learning-Based Methods</summary>
+         
+          - 📘 **Model-based Methods**
+         
+          - 📘 **Framework-Based Methods**
+            
+       </details>
+    -  **📗  Specific Scene Methods**
+          - 📕 **Medical IQA**
+         
+          - 📕 **IQA for Dehazing Algorithms**
+     
+          - 📕 **Portrait Quality Assessment**
+     
+          - 📕 **Specific Distortion**
 
-## 🏛 Taxonomy of IQA Methods
+- [🌐 More Comprehensive Summarization](#-more-comprehensive-summarization)
+- [👨‍👨‍👧‍👦 Maintainers](#-maintainers)
+- [📚 Citation](#-citation)
+- [💪 How to Contribute](#-how-to-contribute)
+- [🫡 Acknowledgement](#-acknowledgement)
+- [📧 Contact Us](#-contact-us)
+
+## 📚 Image Quality Assessment Methods
 
 IQA methods can be categorized based on their dependency on reference images:
 
