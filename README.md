@@ -762,3 +762,26 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.sciencedirect.com/science/article/pii/S0923596512000033">Machine learning to design full-reference image quality assessment algorithm</a></td>
     </tr>
 </table>
+
+## 👨‍👨‍👧‍👦 Maintainers
+ - Chengqian Ma@[step-out](https://github.com/step-out) 
+ - Weixuan Jin@[axax11344](https://github.com/axax11344) 
+ - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
+
+## 📚 Citation
+If you find this survey useful, please cite our paper:
+```
+@misc{ma2025surveyimagequalityassessment,
+      title={A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook}, 
+      author={Chengqian Ma and Zhengyi Shi and Zhiqiang Lu and Shenghao Xie and Fei Chao and Yao Sui},
+      year={2025},
+      eprint={2502.08540},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.08540}, 
+}
+```
+
+## 📧 Contact Us
+If you have any questions or suggestions, please contact us via:
+- Email: chengqianma@yeah.net, zyshi@stu.xmu.edu.cn
