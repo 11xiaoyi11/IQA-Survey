@@ -18,35 +18,35 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 
 ## 📜 Table of Contents
 
-📚 [Image Quality Assessment Methods](##Image-Quality-Assessment-Methods)
-- 📗 General Scene Methods
-  - 📕 Statistics Methods
-    - 📘 [HVS-based Methods](#1)
-    - 📘 [Transform Domain-based Methods](#2)
-    - 📘 [Natural Scene Statistics-based Methods](#3)
-  - 📕 Machine Learning-based Methods
-    - 📘 Model-based Methods
-      - 📙 [Traditional Machine Learning Methods](#4)
-      - 📙 [CNN-based Methods](#5)
-      - 📙 [Transformer-based Methods](#6)
-    - 📘 [Framework-based Methods](#7)
+- [📚 Image Quality Assessment Methods](#-Image-Quality-Assessment-Methods)
+  - 📗 General Scene Methods
+    - 📕 Statistics Methods
+      - 📘 [HVS-based Methods](#1)
+      - 📘 [Transform Domain-based Methods](#2)
+      - 📘 [Natural Scene Statistics-based Methods](#3)
+    - 📕 Machine Learning-based Methods
+      - 📘 Model-based Methods
+        - 📙 [Traditional Machine Learning Methods](#4)
+        - 📙 [CNN-based Methods](#5)
+        - 📙 [Transformer-based Methods](#6)
+      - 📘 [Framework-based Methods](#7)
 
-- 📗 Specific Scene Methods
-  - 📕 [Medical IQA](#8)
-  - 📕 [IQA for Dehazing Algorithms](#9)
-  - 📕 [Portrait Quality Assessment](#10)
-  - 📕 [Specific Distortion](#12)
-    - 📙 Blue
-    - 📙 JPEG compression
+  - 📗 Specific Scene Methods
+    - 📕 [Medical IQA](#8)
+    - 📕 [IQA for Dehazing Algorithms](#9)
+    - 📕 [Portrait Quality Assessment](#10)
+    - 📕 [Specific Distortion](#12)
+      - 📙 Blue
+      - 📙 JPEG compression
 
-👨‍👨‍👧‍👦 [Maintainers](#Maintainers)
+[👨‍👨‍👧‍👦 Maintainers](#-Maintainers)
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
  - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
 
-🕮 [Citation](#Citation)
+[✒️ Citation](#-Citation)
 
-📧 [Contact Us](#Contact-Us)
+[📧 Contact Us](#-Contact-Us)
 
 ## 📚 Image Quality Assessment Methods
 
@@ -777,7 +777,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
  - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
 
-## 🕮 Citation
+## ✒️ Citation
 If you find this survey useful, please cite our paper:
 ```
 @misc{ma2025surveyimagequalityassessment,
