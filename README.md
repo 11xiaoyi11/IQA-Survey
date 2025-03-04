@@ -22,20 +22,20 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 - 📗 General Scene Methods
   - 📕 Statistics Methods
     - 📘 [HVS-based Methods](#1)
-    - 📘 Transform Domain-based Methods
-    - 📘 Natural Scene Statistics-based Methods
+    - 📘 [Transform Domain-based Methods](#2)
+    - 📘 [Natural Scene Statistics-based Methods](#3)
   - 📕 Machine Learning-based Methods
     - 📘 Model-based Methods
-      - 📙 Traditional Machine Learning Methods
-      - 📙 CNN-based Methods
-      - 📙 Transformer-based Methods
-    - 📘 Framework-based Methods
+      - 📙 [Traditional Machine Learning Methods](#4)
+      - 📙 [CNN-based Methods](#5)
+      - 📙 [Transformer-based Methods](#6)
+    - 📘 [Framework-based Methods](#7)
 
 - 📗 Specific Scene Methods
-  - 📕 Medical IQA
-  - 📕 IQA for Dehazing Algorithms
-  - 📕 Portrait Quality Assessment
-  - 📕 Specific Distortion
+  - 📕 [Medical IQA](#8)
+  - 📕 [IQA for Dehazing Algorithms](#9)
+  - 📕 [Portrait Quality Assessment](#10)
+  - 📕 [Specific Distortion](#12)
     - 📙 Blue
     - 📙 JPEG compression
 
@@ -192,7 +192,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/abstract/document/7815393">A fast reliable image quality predictor by fusing micro- and macro-structures</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Transform Domain-Based Method</td>
+        <td colspan="5" align="center"><a id="2"></a>Transform Domain-Based Method</td>
     </tr>
     <tr>
         <td>BLIINDS-II</td>
@@ -244,7 +244,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/document/8101526">From sparse coding significance to perceptual quality: a new approach for image quality assessment</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">NSS-Based Method</td>
+        <td colspan="5" align="center"><a id="3"></a>NSS-Based Method</td>
     </tr>
     <tr>
         <td>160</td>
@@ -282,7 +282,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.cl.cam.ac.uk/~rkm38/pdfs/aydin08driiqa.pdf">Dynamic range independent image quality assessment</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Traditional Machine Learning Method</td>
+        <td colspan="5" align="center"><a id="4"></a>Traditional Machine Learning Method</td>
     </tr>
     <tr>
         <td>The blind/referenceless image spatial quality evaluator (BRISQUE)</td>
@@ -355,7 +355,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/document/7358139">A paraboost method to image quality assessment</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">CNN-Based Method</td>
+        <td colspan="5" align="center"><a id="5"></a>CNN-Based Method</td>
     </tr>
     <tr>
         <td>163</td>
@@ -470,7 +470,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/document/9523177">IQMA Network: Image Quality Multi-Scale Assessment Network</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Transformer-Based Method</td>
+        <td colspan="5" align="center"><a id="6"></a>Transformer-Based Method</td>
     </tr>
     <tr>
         <td>MUSIQ</td>
@@ -522,7 +522,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://arxiv.org/abs/2206.11695">NTIRE 2022 Challenge on Perceptual Image Quality Assessment</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Framework-Based Method</td>
+        <td colspan="5" align="center"><a id="7"></a>Framework-Based Method</td>
     </tr>
     <tr>
         <td>QAC</td>
@@ -588,7 +588,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.researchgate.net/publication/355377889_CNN-Based_Medical_Ultrasound_Image_Quality_Assessment">CNN-Based Medical Ultrasound Image Quality Assessment</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Medical IQA</td>
+        <td colspan="5" align="center"><a id="8"></a>Medical IQA</td>
     </tr>
     <tr>
         <td>164</td>
@@ -598,7 +598,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.sciencedirect.com/science/article/pii/S1053811917310832">Quantitative assessment of structural image quality</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">IQA for Dehazing Algorithm</td>
+        <td colspan="5" align="center"><a id="9"></a>IQA for Dehazing Algorithm</td>
     </tr>
     <tr>
         <td>165</td>
@@ -608,7 +608,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/abstract/document/8654007">Quality evaluation of image dehazing methods using synthetic hazy images</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Portrait Quality Assessment</td>
+        <td colspan="5" align="center"><a id="10"></a>Portrait Quality Assessment</td>
     </tr>
     <tr>
         <td>166</td>
@@ -618,7 +618,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://arxiv.org/abs/2404.11159">Deep Portrait Quality Assessment. A NTIRE 2024 Challenge Survey</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">IQA for Low Light Enhancement</td>
+        <td colspan="5" align="center"><a id="11"></a>IQA for Low Light Enhancement</td>
     </tr>
     <tr>
         <td>NLIEE</td>
@@ -628,7 +628,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/document/9428312">A no-reference evaluation metric for low-light image enhancement</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Specific Distortion</td>
+        <td colspan="5" align="center"><a id="12"></a>Specific Distortion</td>
     </tr>
     <tr>
         <td>133</td>
@@ -659,7 +659,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.sciencedirect.com/science/article/pii/S1434841114002519">Full reference image quality metrics for JPEG compressed images</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Portrait Quality Assessment</td>
+        <td colspan="5" align="center"><a id="13"></a>Portrait Quality Assessment</td>
     </tr>
     <tr>
         <td>166</td>
@@ -669,7 +669,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://arxiv.org/abs/2404.11159">Deep Portrait Quality Assessment. A NTIRE 2024 Challenge Survey</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">IQA for Low Light Enhancement</td>
+        <td colspan="5" align="center"><a id="14"></a>IQA for Low Light Enhancement</td>
     </tr>
     <tr>
         <td>NLIEE</td>
@@ -679,7 +679,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://ieeexplore.ieee.org/document/9428312">A no-reference evaluation metric for low-light image enhancement</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">Specific Distortion</td>
+        <td colspan="5" align="center"><a id="15"></a>Specific Distortion</td>
     </tr>
     <tr>
         <td>133</td>
@@ -710,7 +710,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td><a href="https://www.sciencedirect.com/science/article/pii/S1434841114002519">Full reference image quality metrics for JPEG compressed images</a></td>
     </tr>
     <tr>
-        <td colspan="5" align="center">以下在其它部分使用</td>
+        <td colspan="5" align="center"><a id="16"></a>以下在其它部分使用</td>
     </tr>
     <tr>
         <td> Single stimulus categorical rating(SIQA)</td>
