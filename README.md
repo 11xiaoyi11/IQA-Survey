@@ -18,7 +18,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 
 ## 📜 Table of Contents
 
-📚 Image Quality Assessment Methods
+📚 [Image Quality Assessment Methods](#Image-Quality-Assessment-Methods)
 - 📗 General Scene Methods
   - 📕 Statistics Methods
     - 📘 [HVS-based Methods](#1)
@@ -38,6 +38,15 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
   - 📕 [Specific Distortion](#12)
     - 📙 Blue
     - 📙 JPEG compression
+
+👨‍👨‍👧‍👦 [Maintainers](Maintainers)
+ - Chengqian Ma@[step-out](https://github.com/step-out) 
+ - Weixuan Jin@[axax11344](https://github.com/axax11344) 
+ - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
+
+🕮 [Citation](Citation)
+
+📧 [Contact Us](Contact-Us)
 
 ## 📚 Image Quality Assessment Methods
 
@@ -768,7 +777,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
  - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
 
-## 📚 Citation
+## 🕮 Citation
 If you find this survey useful, please cite our paper:
 ```
 @misc{ma2025surveyimagequalityassessment,
