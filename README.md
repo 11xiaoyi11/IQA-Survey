@@ -21,7 +21,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 📚 Image Quality Assessment Methods
 - 📗 General Scene Methods
   - 📕 Statistics Methods
-    - 📘 HVS-based Methods
+    - 📘 [HVS-based Methods](#1)
     - 📘 Transform Domain-based Methods
     - 📘 Natural Scene Statistics-based Methods
   - 📕 Machine Learning-based Methods
@@ -54,7 +54,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
         <td>Paper name</td>
     </tr>
     <tr>
-        <td colspan="5" align="center">HVS-Based Method</td>
+        <td colspan="5" align="center"><a id="1"></a>HVS-Based Method</td>
     </tr>
     <tr>
         <td>signal-to-noise ratio (SNR)</td>
