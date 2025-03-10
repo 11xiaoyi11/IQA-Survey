@@ -44,7 +44,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
 
-[✒️ Citation](#-Citation)
+[✒️ Citation](#citation)
 
 [📧 Contact Us](#-Contact-Us)
 
@@ -667,7 +667,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
 
-## ✒️ Citation
+## ✒️ Citation {#citation}
 If you find this survey useful, please cite our paper:
 ```
 @misc{ma2025surveyimagequalityassessment,
