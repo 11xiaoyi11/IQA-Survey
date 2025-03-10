@@ -39,10 +39,10 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
       - 📙 Blue
       - 📙 JPEG compression
 
-[👨‍💻 contributers](#-contributers)
+[👨‍💻 Contributers](#-Contributers)
+ - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
- - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
 
 [✒️ Citation](#-Citation)
 
@@ -662,10 +662,10 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
     </tr>
 </table>
 
-## 👨‍💻 contributers
+## 👨‍💻 Contributers
+ - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
- - Zhengyi Shi@[11xiaoyi11](https://github.com/11xiaoyi11)
 
 ## ✒️ Citation
 If you find this survey useful, please cite our paper:
