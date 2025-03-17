@@ -13,7 +13,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 
 ## Update Records
 
-- 🔥 [March.2,2025] The chinese version of our survey has been released on zhihu.
+- 🔥 [Mar.2,2025] The chinese version of our survey has been released on zhihu.
 - 🔥 [Feb.12,2025] The first version of our survey has been released on arXiv.
 
 ## 📜 Table of Contents
