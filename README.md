@@ -12,7 +12,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 🚀Chinese Paper link: [在计算机视觉领域中，我们应该如何评估图像质量（万字长文）？](https://zhuanlan.zhihu.com/p/25680975953), and the simplified version: [什么样的图像才是好的图像？近200篇文献总结图像质量检测的最新进展与挑战](https://mp.weixin.qq.com/s/b62C0hd6DkCDaUqFIgTBng).
 ## Update Records
 
-- 🔥 [March.2,2025] The chinese version of our survey has been released on zhihu.
+- 🔥 [Mar.2,2025] The chinese version of our survey has been released on zhihu.
 - 🔥 [Feb.12,2025] The first version of our survey has been released on arXiv.
 
 ## 📜 Table of Contents
@@ -43,7 +43,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
 
-[✒️ Citation](#-Citation)
+[💡 Citation](#-Citation)
 
 - If you find this survey useful, please consider citing it.
 
@@ -668,7 +668,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
  - Chengqian Ma@[step-out](https://github.com/step-out) 
  - Weixuan Jin@[axax11344](https://github.com/axax11344) 
 
-## ✒️ Citation
+## 💡 Citation
 If you find this survey useful, please cite our paper:
 ```
 @misc{ma2025surveyimagequalityassessment,
