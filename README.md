@@ -59,7 +59,7 @@ Image Quality Assessment (IQA) is a critical component of image-related technolo
 Citation counts below were queried from **OpenAlex on October 13, 2026**.
 Paper identities were matched automatically by normalized exact title and publication year;
 these matches have not been individually verified. Counts link to their OpenAlex records.
-**N/A** marks unresolved matches, not zero. Rows without a specific paper retain blank cells.
+** ** marks unresolved matches, not zero. Rows without a specific paper retain blank cells.
 OpenAlex counts use a different database coverage and version grouping from other services;
 differences from the original numbers must not be interpreted as citation growth.
 The [original February 1, 2025 citation snapshot](citations/README-2025-02-01.md)
@@ -296,7 +296,7 @@ is preserved for historical reference.
     </tr>
     <tr>
         <td>Dynamic Range Independent quality Measure (DRIM)</td>
-        <td>N/A</td>
+        <td> </td>
         <td>2008.08</td>
         <td>With</td>
         <td><a href="https://www.cl.cam.ac.uk/~rkm38/pdfs/aydin08driiqa.pdf">Dynamic range independent image quality assessment</a></td>
@@ -386,7 +386,7 @@ is preserved for historical reference.
     </tr>
     <tr>
         <td></td>
-        <td>N/A</td>
+        <td> </td>
         <td>2017.10</td>
         <td>FR+NR</td>
         <td><a href="https://ieeexplore.ieee.org/document/8063957">Deep neural networks for no-reference and full-reference image quality assessment</a></td>
@@ -501,14 +501,14 @@ is preserved for historical reference.
     </tr>
     <tr>
         <td>Maniqa</td>
-        <td>N/A</td>
+        <td> </td>
         <td>2022.04</td>
         <td>Without</td>
         <td><a href="https://arxiv.org/abs/2204.08958">Maniqa: Muli-dimension attention network for no-reference image quality assessment</a></td>
     </tr>
     <tr>
         <td>TRIQ</td>
-        <td>N/A</td>
+        <td> </td>
         <td>2020.12</td>
         <td>Without</td>
         <td><a href="https://ieeexplore.ieee.org/abstract/document/9506075">Transformer for Image Quality Assessment</a></td>
@@ -529,10 +529,17 @@ is preserved for historical reference.
     </tr>
     <tr>
         <td>NTIRE 2022 Challenge<br>on Perceptual IQA</td>
-        <td>N/A</td>
+        <td> </td>
         <td>2022.06</td>
         <td></td>
         <td><a href="https://arxiv.org/abs/2206.11695">NTIRE 2022 Challenge on Perceptual Image Quality Assessment</a></td>
+    </tr>
+    <tr>
+        <td>Jacobian Lens Distance (JLD)</td>
+        <td></td>
+        <td>2026.10</td>
+        <td>With</td>
+        <td><a href="https://arxiv.org/abs/2610.05967">JLD: Perceptual Distance Through A Jacobian Lens</a></td>
     </tr>
     <tr>
         <td colspan="5" align="center"><a id="7"></a> 📖Framework-Based Method</td>
@@ -546,7 +553,7 @@ is preserved for historical reference.
     </tr>
     <tr>
         <td>MetalQA</td>
-        <td>N/A</td>
+        <td> </td>
         <td>2020.04</td>
         <td>Without</td>
         <td><a href="https://ieeexplore.ieee.org/document/9156932">MetalQA: Deep Meta-Learning for No-Reference Image Quality Assessment</a></td>
